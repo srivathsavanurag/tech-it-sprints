@@ -7,7 +7,7 @@
 1)Takes username similar to basic-servlet-example and takes a number.  
 2)Outputs welcome {username} and multiplication tables  
 
- *Note: In basic-servlet-example project, inside servlet class(TestSessionServlet) we had to write html string(code) inside out.write(). We had to get the username and append to the html string which is inside out.write(). In JSP we just write JAVA code inside html code, we get the username which is in request inside html code by writing java code.*  
+ *Note: In basic-servlet-example project, inside servlet class(TestSessionServlet) we had to write html string(code) inside out.write(). We had to get the username and append to the html string which is inside out.write(). In JSP we write java code inside html code, we get the username which is in request inside html code by writing java code.*  
 
 ## Points to be noted
 ##### JSP lifecycle  
