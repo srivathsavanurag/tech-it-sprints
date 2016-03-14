@@ -22,9 +22,9 @@
 
 *Note: Since servlet is a singleton, from 2nd request first 5 steps will not be performed. From 2nd request service() method is invoked in a new thread of execution.*  
 
-##### <% %>  -> Scriplet tag(multiline java code) is copy pasted as is in service method.  
-##### <%= %> -> Expression tag goes inside out.print(executable java code). Executable java code is executed and returned to out.print()  
-##### <%! %> -> Declartion tag is copy pasted as is inside converted java servlet class but outside service() method.  
+###### <% %>  -> Scriplet tag(multiline java code) is copy pasted as is in service method.  
+###### <%= %> -> Expression tag goes inside out.print(executable java code). Executable java code is executed and returned to out.print()  
+###### <%! %> -> Declartion tag is copy pasted as is inside converted java servlet class but outside service() method.  
 
 
 #### Converted JSP to JAVA looks like below(refer welcome.jsp)  
