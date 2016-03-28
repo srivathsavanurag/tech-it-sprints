@@ -26,6 +26,7 @@
 ###### <%= %> -> Expression tag goes inside out.print(executable java code). Executable java code is executed and returned to out.print()  
 ###### <%! %> -> Declartion tag is copy pasted as is inside converted java servlet class but outside service() method.  
 
+*Note: This project needs to be refactored to use best practices which will be done later. As of now this code should be used only for understanding purposes.*
 
 #### Converted JSP to JAVA looks like below(refer welcome.jsp)  
 ```html
